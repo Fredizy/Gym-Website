@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Bree Serif', serif;
+    /* font-size: 70px; */
+    font-weight: 900;
+}
+.nav-link:hover{
+  border-bottom: 2px solid  #fec303;
+  color: #fec303;
+}
+
+
+
+.landing{
+    background-image: url(../img/young-fitness-man-studio.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    filter:brightness(0.9);
+   
+    }
+
+    .landing-text{
+        color: white;
+        position: absolute;
+        text-align: center;
+        margin-top: 220px;
+        margin-left: 150px;
+        padding: 0%;
+        text-align: justify;
+        font-size: 35px;
+        font-weight:900;
+        font-size: 40px;
+        
+      }
+
+      .container-fluid1{
+        overflow: hidden;
+        max-width: 95%;
+        margin: auto;
+      }
+
+      .container-fluid-workouts{
+        overflow: hidden;
+        max-width: 100%;
+      }
+
+      .program-workout1{
+        background-image: url(../img/10\ mass\ body\ building.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+      .program-workout2{
+        background-image: url(../img/muscle\ and\ strength.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+      .program-workout3{
+        background-image: url(../img/fit-man-dumbbell-workout-400.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+      .program-workout4{
+        background-image: url(../img/power\ hypertrophy\ img.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+      .program-workout5{
+        background-image: url(../img/muscle\ and\ strength\ 2.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+      .program-workout6{
+        background-image: url(../img/Fat\ destroyer.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative; 
+      }
+     
+      
