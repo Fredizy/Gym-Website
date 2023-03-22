@@ -15,6 +15,9 @@
   color: #fec303;
 }
 
+.Team-text:hover{
+   color: #fec303 !important;
+}
 
 
 .landing{
@@ -34,7 +37,7 @@
         color: white;
         position: absolute;
         text-align: center;
-        margin-top: 220px;
+        margin-top: 200px;
         margin-left: 150px;
         padding: 0%;
         text-align: justify;
@@ -43,6 +46,56 @@
         font-size: 40px;
         
       }
+
+      @media screen and (max-width: 767px) {
+        .landing-text{
+          margin-left: 50px;
+        }
+        .collapse {
+          background-color: #fec303;
+        }
+        .nav-link{
+          color: black !important;
+        }
+        .about-us-img{
+          margin-top: 100px;
+        }
+      }
+      /* .scrolled{
+        background-color: #fec303;
+      } */
+
+      .container-fluid2{
+        max-width: 100%;
+        margin: auto;
+      }
+    
+      .Form-box{
+        background-image: url(../img/Form\ img.jpeg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 100%; 
+        position: relative;
+        filter:brightness(100%);
+        background-attachment: fixed;
+      }
+    
+      @media screen and (max-width: 767px) {
+        .Form-text{
+          margin-left: 30px !important;
+          font-size: 2rem !important;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        .Form-text2{
+          margin-left: 30px !important;
+        }
+      }
+    
 
       .container-fluid1{
         overflow: hidden;
@@ -54,6 +107,7 @@
         overflow: hidden;
         max-width: 100%;
       }
+      
 
       .program-workout1{
         background-image: url(../img/10\ mass\ body\ building.jpg);
@@ -115,5 +169,67 @@
         width: 100%; 
         position: relative; 
       }
+
+    .Trainee-box{
+      background-image: url(../img/team-1.jpg);
+      background-position: center;
+      background-repeat: none;
+      background-size: cover;
+      margin-top: 20px;
+      overflow: hidden;
+      width: 100%; 
+      position: relative;
+    }
+    .Trainee-box:hover{
+      transform: scale(1.04);
+      transition: .3s;
+    }
+     
+    .Trainee-box2{
+      background-image: url(../img/team-2.jpg);
+      background-position: center;
+      background-repeat: none;
+      background-size: cover;
+      margin-top: 20px;
+      overflow: hidden;
+      width: 100%; 
+      position: relative;
+    }
+
+    .Trainee-box2:hover{
+      transform: scale(1.04);
+      transition: .3s;
+    }
+     
+    .Trainee-box3{
+      background-image: url(../img/team-3.jpg);
+      background-position: center;
+      background-repeat: none;
+      background-size: cover;
+      margin-top: 20px;
+      overflow: hidden;
+      width: 100%; 
+      position: relative;
+    }
+    .Trainee-box3:hover{
+      transform: scale(1.04);
+      transition: .3s;
+    }
+     
+    .Trainee-box4{
+      background-image: url(../img/team-4.jpg);
+      background-position: center;
+      background-repeat: none;
+      background-size: cover;
+      margin-top: 20px;
+      overflow: hidden;
+      width: 100%; 
+      position: relative;
+    }
+
+    .Trainee-box4:hover{
+      transform: scale(1.04);
+      transition: .3s;
+    }
      
       
