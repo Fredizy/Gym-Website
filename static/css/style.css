@@ -131,6 +131,11 @@
         overflow: hidden;
         max-width: 100%;
       }
+
+      .container-fluid-map{
+        overflow: hidden;
+        max-width: 100%;
+      }
       
 
       .program-workout1{

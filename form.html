@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Static/css/style.css">
+    <link rel="stylesheet" href="Static/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #131619;">
+    <a class="ms-5 pt-3 d-flex" style="color: white; font-family: 'Bree Serif', serif; text-decoration: none; font-size: 20px; font-weight: 900;" href="index.html">Go to home <span><svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 1px;" width="25"height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></span></a>
+      <!-- form -->
+      <br>
+      <h1 style="color: white; text-align: center; font-weight: 700; font-family: 'Bree Serif', serif;">GET STARTED TODAY!</h1>
+      <br>
+      <h5 class="Form-text2" style="color: white; text-align: center;">Fill out the form and get started on the path to a <br>
+        mentally and physically stronger you.</h5>
+      <!-- <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="p-3 border border-1" style="height: 650px;">
+          <div class="row">
+            <div class="col-md-6">
+              <br>
+              <label for="inputEmail4" class="form-label" style="color: white; font-size: 17px;">Your Name</label>
+              <input type="email" class="form-control rounded-0 border border-1" style="height: 60px; color: white; background-color: transparent; border: 1px solid #333333" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <br>
+              <label for="inputPassword4" class="form-label" style="color: white; font-size: 17px;">Your Email</label>
+              <input type="password" class="form-control rounded-0 " style="height: 60px; color: white; background-color: transparent;" id="inputPassword4">
+            </div>
+        </div>
+        <br>
+        <div class="col-md-6">
+          <br>
+          <label for="inputEmail4" class="form-label" style="color: white; font-size: 17px;">Subject</label>
+          <input type="email" class="form-sm form-control rounded-0" style="height: 60px; color: white; background-color: transparent; width: 573px;" id="inputEmail4">
+        </div>
+        <br>
+        <div class="col-md-6">
+          <br>
+          <label for="inputEmail4" class="form-label" style="color: white; font-size: 17px;">Your Message (optional)</label>
+          <input type="email" class="form-sm form-control rounded-0" style="height: 60px; color: white; background-color: transparent; width: 573px; height: 150px;" id="inputEmail4">
+        </div>
+        <br><br>
+        <a  class="form-sm1 Form-text2 btn btn-primary rounded rounded-0 border border-0" href="#" role="button" style=" padding: 10px 27px; background-color: #fec303; width: 573px;"><span style="color: black; font-weight: 500;">SUBMIT</span></a>
+      </div>
+      </div> -->
+      <br><br><br>
+      <div class="form-landing">
+          <div class="container-form d-flex justify-content-center" >
+            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+               
+                <p>
+                <label  style="color: white; font-weight: 900; font-size: 20px;">Name<br>
+                <input class="form-control2" type="text" name="customer_name" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
+                </label> 
+                </p>
+                
+                <p>
+                <label style="color: white;  font-weight: 900; font-size: 20px; ">Email <br>
+                    <input class="form-control2" type="text" name="customer_name" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
+                </label>
+                </p>
+                    
+                <p>
+                <label style="color: white; font-weight: 900; font-size: 20px;"> Gender <br><br>
+                <select class="form-control" id="pickup_place" name="pickup_place" style=" background-color: transparent; color: white; border: 2px solid white;">
+                <option value="" selected="selected" style="background-color: #fec303;"><span style="background-color:  #fec303; font-size: 20px;">Select your gender</span></option>
+                <option value="website" style="color: black;">Male</option>
+                <option value="membership" style="color: black;">Female</option>
+                </select>
+                </label> 
+                </p>
+                
+                <p>
+                <label style="color: white; font-weight: 900; font-size: 20px;">Enquiry (optional)<br>
+                <textarea class="form-control" name="comments" maxlength="500" style="width: 250px; height: 150px; background-color: transparent; color: white;"></textarea>
+                </label>
+                </p>
+                
+                <a  class=" Form-text2 btn rounded rounded-0 border border-0 d-flex justify-content-center" href="Form.html" role="button" style=" padding: 10px 30px; background-color:  #fec303;"><span style="color: black; font-weight: 500;">Register Now</span></a>
+                
+                </form>
+          </div>
+      </div>
+      <br><br><br>
+</body>
+</html>
