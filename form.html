@@ -61,23 +61,23 @@
       <br>
       <div class="form-landing">
           <div class="container-form d-flex justify-content-center" >
-            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+            <form class="myForm" method="POST" enctype="application/x-www-form-urlencoded" action="https://formspree.io/f/mvonbwer">
                
                 <p>
                 <label  style="color: white; font-weight: 900; font-size: 20px;">Name<br>
-                <input class="form-control2" type="text" name="customer_name" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
+                <input class="form-control2" type="text" name="Name" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
                 </label> 
                 </p>
                 
                 <p>
                 <label style="color: white;  font-weight: 900; font-size: 20px; ">Email <br>
-                    <input class="form-control2" type="text" name="customer_name" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
+                    <input class="form-control2" type="email" name="Email" style="width: 500px; height: 45px; background-color: transparent; border: none; border-bottom: 2px solid white; border-radius: 0px; color: white;"required>
                 </label>
                 </p>
                     
                 <p>
                 <label style="color: white; font-weight: 900; font-size: 20px;"> Gender <br><br>
-                <select class="form-control" id="pickup_place" name="pickup_place" style=" background-color: transparent; color: white; border: 2px solid white;">
+                <select class="form-control" id="pickup_place" name="Gender" style=" background-color: transparent; color: white; border: 2px solid white;">
                 <option value="" selected="selected" style="background-color: #fec303;"><span style="background-color:  #fec303; font-size: 20px;">Select your gender</span></option>
                 <option value="website" style="color: black;">Male</option>
                 <option value="membership" style="color: black;">Female</option>
@@ -90,12 +90,15 @@
                 <textarea class="form-control" name="comments" maxlength="500" style="width: 250px; height: 150px; background-color: transparent; color: white;"></textarea>
                 </label>
                 </p>
-                
-                <a  class=" Form-text2 btn rounded rounded-0 border border-0 d-flex justify-content-center" href="Form.html" role="button" style=" padding: 10px 30px; background-color:  #fec303;"><span style="color: black; font-weight: 500;">Register Now</span></a>
-                
+                <div id="liveAlertPlaceholder">
+                <a   class=" Form-text2 btn rounded rounded-0 border border-0 d-flex justify-content-center" href="Form.html" role="button" type="SUBMIT" style=" padding: 10px 30px; background-color:  #fec303;"><span style="color: black; font-weight: 500;">Register Now</span></a>
+                </div>
                 </form>
           </div>
       </div>
       <br><br><br>
+      <script>
+        
+      </script>
 </body>
 </html>
