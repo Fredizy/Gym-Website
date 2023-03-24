@@ -50,6 +50,7 @@
       @media screen and (max-width: 767px) {
         .landing-text{
           margin-left: 50px;
+          font-size: 3rem;
         }
         .collapse {
           background-color: #fec303;
@@ -61,13 +62,42 @@
           margin-top: 100px;
         }
       }
-      /* .scrolled{
-        background-color: #fec303;
-      } */
+       .scrolled{
+        background-color: black;
+      } 
+      
+      @media (min-width: 767px) and (max-width: 967px) {
+        .landing-text{
+          margin-top:  400px !important;
+          margin-left: 20px;
+          font-size: 3rem;
+        }
+        .container-form{
+          margin-left: 40px !important;
+        }
+        .collapse {
+          background-color: #fec303;
+        }
+        .nav-link{
+          color: black !important;
+        }
+        .form-sm{
+          width: 738px !important;
+        }
+        .form-sm1{
+          width: 738px !important;
+        }
+      }
 
+      .container-form{
+        margin-left: 50px !important;
+      }
       .container-fluid2{
         max-width: 100%;
         margin: auto;
+      }
+      .container-footer{
+        margin-top: 300px !important;
       }
     
       .Form-box{
@@ -115,9 +145,39 @@
           margin-top: 50px;
         }
         .form-sm1{
-          width: 250px !important;
+          width: 300px !important;
         }
       }
+    
+    .container-form{
+      /* max-width: 90%; */
+      /* margin: auto; */
+      margin-top: 30px;
+      margin-left: 300px;
+      /* overflow: hidden; */
+    }
+    .form-control input{
+      border: none !important;
+      
+    }
+    
+    @media screen and (max-width: 767px) {
+      .container-form{
+        margin-left: 10px !important;
+      }
+    }
+    
+    @media screen and (max-width:767px) {
+      .form-control2{
+        width: 300px !important;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .Form-text2{
+        margin-left: 5px !important;
+      }
+    }
 
     
 
@@ -260,5 +320,79 @@
       transform: scale(1.04);
       transition: .3s;
     }
+
+    .container-fluid-gallery{
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    
+  Within style tags in your html file
+ 
+  * { box-sizing: border-box; }
+  
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+  @media (max-width: 575px) {
+    .grid-sizer,
+    .grid-item {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .grid-sizer,
+    .grid-item {
+      width: 50%;
+    }
+  }
+  
+  /* To change the amount of columns on larger devices, uncomment the code below */
+  
+   @media (min-width: 768px) and (max-width: 991px) {
+    .grid-sizer,
+    .grid-item {
+      width: 33.333%;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .grid-sizer,
+    .grid-item {
+      width: 25%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .grid-sizer,
+    .grid-item {
+      width: 20%;
+    }
+  } 
+  
+  .grid-item {
+    float: left;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+ 
+  .masonry-column {
+     padding: 0px 1px;
+   }
+   
+   .masonry-grid > div .thumbnail {
+     margin: 10px 10px;
+   }
+ .container-fluid1{
+     overflow: hidden;
+ }
      
       
